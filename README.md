@@ -22,7 +22,13 @@ A technology stack is a set of frameworks and tools used to develop a software p
 
   `http://<Public-IP-Address>:80`
 ### Step 2: Installing MySQL in the Apache Server
-
+- Use ‘apt’ to acquire and install this MySql software
+- Login to MySQL server
+- Set Password for root user
+- Change default password  from “Password.1” to any convenient password after which you press yes to all the questions that follows
+-	When you’re finished, test if you’re able to log in to the MySQL console by typing:
+  
+  `sudo mysql -p`
 ### Step 3: Installing PHP
 ### Step 4: Creating a virtual Host for the website using Apache
 ### Step 5: Enabling PHP on the website
